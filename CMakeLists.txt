@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 3.1.0)
-include(CMakeDetermineC99Compiler)
 project(workflow-learn C99)
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_C_STANDARD_REQUIRED ON)
