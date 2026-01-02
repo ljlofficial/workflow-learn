@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 4.0.0)
+project(workflow-learn C99)
+set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+add_executable(main main.c fuction.c)
+include_directories(${PROJECT_SOURCE_DIR}/include)
